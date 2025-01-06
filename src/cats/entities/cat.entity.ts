@@ -4,10 +4,10 @@ import { Column, Entity } from 'typeorm';
 export class Cat {
   @Column({ primary: true, generated: true })
   id: number;
-  @Column
+  @Column()
   name: string;
-  @Column
+  @Column()
   age: number;
-  @Column
+  @Column()
   breed: string;
 }
