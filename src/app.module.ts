@@ -14,7 +14,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       username: 'root',
       password: 'mysql',
       database: 'crud-nestjs',
-      entities: [],
+      autoLoadEntities: true,
       synchronize: true,
     }
   ],
